@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr) 1fr;
+  grid-template-rows: 100px repeat(3, 300px);
+  grid-template-areas:
+  "header header  header header"
+  "content-1 content-2 content-3 navbar"
+  "content-1 content-2 content-3 navbar"
+  "content-1 content-2 content-3 navbar"
+  ;
+  margin: 50px 200px;
+  max-width: 700px;
+  font-family: 'Montserrat', sans-serif;
+}
+

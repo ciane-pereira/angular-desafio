@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  gap:  2vh 2vh;
+  margin-top: 25px;
+  margin-right: 0;
+  padding: 0 px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-news {
+  grid-area: content-1;
+  border: solid 2px  lightgray;
+  border-radius: 7px;
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  padding: 12px 15px 0;
+  font-weight: bolder;
+}
+
+.card .summary-news {
+  font-size: 0.7rem;
+  padding: 12px;
+  font-weight: 300;
+}
+
+#full-news {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 0.6rem;
+  color: #0077b6;
+  margin-left: 12px;
+ padding: 20px 15px 12px;
+}
+

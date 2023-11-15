@@ -1,0 +1,29 @@
+form > p {
+  font-size: 0.65rem;
+  font-weight:bold;
+  padding-top: 25px;
+  padding-bottom: 8px;
+}
+
+form .input-wrapper {
+  align-items:center;
+  padding: 6px 8px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(185, 187, 189);
+  display: flex;
+}
+
+.input-wrapper input {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+}
+
+i {
+  align-items: center;
+  margin: auto;
+  color: rgb(185, 187, 189);
+  cursor: pointer;
+}
