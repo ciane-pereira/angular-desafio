@@ -7,7 +7,7 @@ import { PostData } from 'src/app/models/postData';
   styleUrls: ['./card.components.css']
 })
 export class CardComponent implements OnInit {
-  post?: PostData = {
+  post: PostData = {
     id:0,
     title:'',
     body:''
